@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Смартфон Shop </title>
+<link rel="stylesheet" type="text/css" href="./style.css/style.css">    
+</head>
+<body>
+<!-- Основной блок сайта -->
+<div id="basic">
+  <!-- Шапка сайта -->
+<div id="head-site">
+<h1 align="center">Смартфон Shop</h1> 
+<img src="./image/1.png" width="400" height="450" />
+<!-- Верхнее меню сайта -->
+<div id="menu-top">
+  <div class="bg-1">
+      <ul>
+      <li><a href="./index.html">О нас</a></li>
+      <li><a href="./katalog.html">Каталог </a></li>
+      <li><a href="./oplata.html">Оплата и доставка </a></li>
+      <li><a href="./otziv.html">Отзывы</a></li>
+      <li><a href="./map.html">Как нас найти</a></li>
+      <li class="none-bg"><a href="./kontakt.html">Контакты</a></li>
+      </ul>
+  </div>
+  <center>
+  <h2>Наши Контактные Данные </h2>
+  <address>
+
+   
+    <a href="mailto:pasch.martinow@gmail.com"><h3>pasch.martinow@gmail.com</h3></a>
+  
+    <a href="tel:89775890150"><h3>89775890150</h3></a>
+  </address> 
+  <br>
+  <h2>Введите Ваши Данные Для Обратной Связи</h2>
+  <br>
+   <!--Данные введенные пользователем обрабатываются кодом в mail.php-->
+   <form action="./mail.php" method="post">
+    <!--Тег используется для группировки связанных элементов в форме-->
+    <fieldset>
+    <!--Тег задает заголовок для групповых элементов-->
+    <legend>Данные:</legend>
+    Ваше имя:
+    <!--Устанавливает однострочное текстовое поле ввода:-->
+    <input type="text" name="name">
+    <!--Используется для полей ввода, которые должны содержать адрес электронной почты.-->
+    E-mail:
+    <input type="text" name="email">
+    Номер телефона:
+    <input type="text" name="phone">
+    Сообщение:
+    <!--Тег разрешает многострочный ввод текста.-->
+    <textarea rows="10" cols="45" name="message"></textarea>
+    <!--Устанавливает кнопку для отправки данных формы в обработчик формы.-->
+    <input type="submit" value="Отправить сообщение">
+    </fieldset>
+    </form>
+<p>ООО "Смартфон Shop" вправе отказаться от заключения договора с юридическим лицом или индивидуальным предпринимателем, или предложить иные условия заключения сделки (ст. 437 ГК РФ). </p>
+
+</center>
+</div>
+
+
+<div class="p1">ООО “Смартфон Shop” 2023г.<br/> 
+</body>
+</html>
